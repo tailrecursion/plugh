@@ -13,6 +13,7 @@
                  ;; [org.clojure/tools.namespace "0.2.4"]
                  [org.clojure/clojurescript "0.0-1859"]
                  [org.clojure/data.json "0.2.2"]
+                 [tailrecursion/javelin "1.0.0-SNAPSHOT"]
                  ;; [nu.validator.htmlparser/htmlparser "1.4"]
                  ]
   
@@ -29,7 +30,7 @@
                            :pretty-print true}}
                
                :prod
-               {:source-paths ["clang_code" "resources/apps" "resource/shared"]
+               {:source-paths ["clang_code" "resources/apps" "resources/shared"]
                 :compiler {:output-to "resources/target/js/clang.js"
                            :pretty-print false
                            :optimizations :whitespace}}
